@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHOP</title>
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0a1030;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            box-sizing: border-box;
+        }
+
+        .navbar {
+            background-color: rgba(0, 0, 0, 0.5);
+            overflow: hidden;
+            position: fixed;
+            width: 100%;
+            top: 0;
+        }
+
+        .navbar img {
+            height: 50px;
+            margin: 10px 20px;
+            float: left;
+        }
+
+        .social-icons {
+            float: right;
+            margin: 15px 20px;
+        }
+
+        .social-icons a {
+            margin-left: 0px;
+            text-decoration: none;
+        }
+
+        .social-icons img {
+            height: 30px;
+        }
+
+        .product-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 80px;
+            max-width: 950px; /* Added max-width */
+        }
+
+        .product-card {
+            width: 200px; /* Adjusted width with margin */
+            margin: 8px;
+            flex-basis: calc(21% - 20px);
+            height: 235px;
+            border-bottom: 10px solid #3345AB; /* Added indigo border at the bottom */
+            background: #0B0B21;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            color: white;
+            text-align: center;
+            align-items: flex-start;
+            border-radius: 12px;
+            cursor: pointer;
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 17px;
+           
+        }
+
+        .product-card img {
+            width: 80%; /* Make image fill the width of the card */
+            height:50%;
+            object-fit: contain; /* Maintain aspect ratio and cover the card */
+            display: block;
+            margin: auto; /* Center the image */
+        }
+
+
+        .product-card h2,
+        .product-card p {
+            margin: 10px;
+        }
+
+        .product-card p {
+            margin-top: auto;
+        }
+
+        .product-card img.weirdy{
+            object-fit: contain; /* This value maintains aspect ratio while covering the container */
+            width: 80%;
+            height: 50%;
+        }
+
+        .product-card:hover {
+            border-bottom: 15px solid #3345AB; /* Change border color on hover */
+            transform: translateY(-5px); /* Add a slight upward translation on hover */
+        }
+
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="index.html"><img src="nav bar\logo.png" alt="Home"></a>
+        <div class="social-icons">
+            <a href="https://open.spotify.com/artist/53XhwfbYqKCa1cC15pYq2q?si=3cV9ewjNTOSJwgLHHfBBMQ" target="_blank"><img src="nav bar\spotify.png" alt="Spotify"></a>
+            <a href="https://www.youtube.com/channel/UCT9zcQNlyht7fRlcjmflRSA" target="_blank"><img src="nav bar\youtube.svg" alt="Youtube"></a>
+            <a href="https://x.com/Imaginedragons?s=20" target="_blank"><img src="nav bar\twitter.svg" alt="Twitter"></a>
+            <a href="https://www.instagram.com/imaginedragons/" target="_blank"><img src="nav bar\instagram.svg" alt="Instagram"></a>
+        </div>
+    </div>
+
+    <div class="product-container">
+        <!-- Repeat the product-card block below for each product -->
+
+        <!-- Product 1 -->
+        <div class="product-card">
+                <img src="item cards\origins_vinyl.png" alt="Product 1">
+                <p>ORIGINS VINYL+DIGITAL ALBUM</p>
+                <p>&#x20B9; 2800</p>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product-card">
+            <img src="item cards\floral_hoodie.png" alt="Product 2">
+            <p>FLORAL LOGO TAN HOODIE</p>
+            <p>&#x20B9; 3200</p>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="product-card">
+            <img src="item cards\next_to_me_poster.png" class= "weirdy" alt="Product 3">
+            <p>NEXT TO ME A3 POSTER</p>
+            <p>&#x20B9; 1800</p>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="product-card">
+            <img src="item cards\cap.png" alt="Product 4">
+            <p>VEGAS TRUCKER HAT</p>
+            <p>&#x20B9; 1500</p>
+        </div>
+
+        <!-- Product 5 -->
+        <div class="product-card">
+            <img src="item cards\imagine_poster.png" alt="Product 5">
+            <p>IMAGINE A1 POSTER</p>
+            <p>&#x20B9; 1800</p>
+        </div>
+
+        <!-- Product 6 -->
+        <div class="product-card">
+            <img src="item cards\mercury_I.png" alt="Product 6">
+            <p>MERCURY-ACT I DELUXE CD</p>
+            <p>&#x20B9; 1800</p>
+        </div>
+
+        <!-- Product 7 -->
+        <div class="product-card">
+            <img src="item cards\keychain.png" alt="Product 7">
+            <p>IMAGINE DRAGONS KEYCHAIN</p>
+            <p>&#x20B9; 600</p>
+        </div>
+
+        <!-- Product 8 -->
+        <div class="product-card">
+            <img src="item cards\vintage_hoodie.png" alt="Product 8">
+            <p>VINTAGE GRAPHIC HOODIE</p>
+            <p>&#x20B9; 3400</p>
+        </div>
+
+        <!-- Product 9 -->
+        <div class="product-card">
+            <img src="item cards\mercury_II.png" alt="Product 9">
+            <p>MERCURY ACT II VINYL</p>
+            <p>&#x20B9; 2200</p>
+        </div>
+
+        <!-- Product 10 -->
+        <div class="product-card">
+            <img src="item cards\bottle.png" alt="Product 10">
+            <p>VINTAGE VEGAS WATER BOTTLE</p>
+            <p>&#x20B9; 2000</p>
+        </div>
+
+        <!-- Product 11 -->
+        <div class="product-card">
+            <img src="item cards\cassette.png" alt="Product 11">
+            <p>NIGHT VISIONS CASSETTE</p>
+            <p>&#x20B9; 1100</p>
+        </div>
+
+        <!-- Product 12 -->
+        <div class="product-card">
+            <img src="item cards\tote.png" alt="Product 12">
+            <p>BONES TREAT BAG</p>
+            <p>&#x20B9; 1500</p>
+        </div>
+    </div>
+</body>
+</html>
+
+

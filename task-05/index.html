@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="rowdies.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Imagine Dragons</title>
+<style>
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('backdrop.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Added this line to make the background fixed */
+    height:00vh;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .navbar {
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top: 0;
+  }
+
+  .navbar img {
+    height: 50px;
+    margin: 10px 20px;
+    float: left;
+  }
+
+  .social-icons {
+    float: right;
+    margin: 15px 20px;
+  }
+
+  .social-icons a {
+    margin-left: 0px;
+    text-decoration: none;
+  }
+
+  .social-icons img {
+    height: 30px;
+  }
+
+  .header {
+    text-align: center;
+    margin-top: 41vh;
+  }
+
+  .texty{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    margin-top: 536px;
+    font-family: 'Rowdies-Regular', sans-serif;
+    margin-bottom: -262px;
+  }
+
+  .id {
+   position: absolute;
+   top: 80%;
+   left: 50%;
+   transform: translate(-50%, -50%) scale(1.5); /* Adjust the scale value as needed */
+   margin-top: -25px;
+   margin-bottom: 235px;
+  }
+
+
+  .explore-button {
+    background-color: #2BDAE1;
+    color: #0B0B21;
+    font-family: 'Bebas Neue', sans-serif;
+    border: none;
+    padding: 0px 27px;
+    font-size: 35px;
+    cursor: pointer;
+    background-image: url('arrow-next.svg');
+    background-repeat: no-repeat;
+    margin-left: 5px;
+    background-position:100%;
+    background-size: 35px;
+    border-radius: 5px;
+    margin-top: -261px;/*got these values by inspection*/
+    margin-bottom: 20px;
+  }
+</style>
+</head>
+<body>
+  <div class="navbar">
+    <a href="index.html"><img src="nav bar\logo.png" alt="Home"></a>
+    <div class="social-icons">
+      <a href="https://open.spotify.com/artist/53XhwfbYqKCa1cC15pYq2q?si=3cV9ewjNTOSJwgLHHfBBMQ" target="_blank"><img src="nav bar\spotify.png" alt="Spotify"></a>
+      <a href="https://www.youtube.com/channel/UCT9zcQNlyht7fRlcjmflRSA" target="_blank"><img src="nav bar\youtube.svg" alt="Youtube"></a>
+      <a href="https://x.com/Imaginedragons?s=20" target="_blank"><img src="nav bar\twitter.svg" alt="Twitter"></a>
+      <a href="https://www.instagram.com/imaginedragons/" target="_blank"><img src="nav bar\instagram.svg" alt="Instagram"></a>
+    </div>
+  </div>
+  <div class="texty">
+    <h1>
+      WE ARE
+    </h1>
+  </div>
+  <div class="id">
+    <img src="id_text.png">
+  </div>
+  <div class="header">
+    <button class="explore-button"><a href="shop.html">EXPLORE SHOP</a></button>
+    
+  </div>
+</body>
+</html>
