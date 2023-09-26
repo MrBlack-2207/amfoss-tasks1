@@ -1,6 +1,6 @@
 import discord
 from discord.ext import commands
-import pandas as pd
+import pandas as pd # for manipulating data recieved from the espn website
 import os
 from scraper import retrieve_live_scores
 
@@ -31,7 +31,7 @@ async def livescore(ctx):
         team = team_data[0]
         score, status = score_status_data[0]
 
-        # Format the message with separate lines and headings
+    
         live_score_text = (
             f"Live Score : {team}\n"
             f"Status : {score}\n"
@@ -53,6 +53,7 @@ async def csv(ctx):
         await ctx.send(file=csv_file)
     else:
         await ctx.send("No live scores history available.")
+        # For getting the csv file
 
 bot.remove_command('help')
 
@@ -62,7 +63,8 @@ async def help(ctx):
         "Here are the available commands:\n"
         "!livescore - Get live cricket scores.\n"
         "!csv - Get the CSV(Comma Separated Values) file of live scores history.\n"
-        "!help - Show this message."
+        "!help - Shows this message.\n"
+        "!hi - intro"
     )
     await ctx.send(help_message)
 
