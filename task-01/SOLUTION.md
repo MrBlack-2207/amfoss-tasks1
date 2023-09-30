@@ -49,7 +49,13 @@ Used this for shifting to that specific branch
 ## git log
 Used this for checking hidden stuff in commit logs
 
-## git push
+## git add
+Used this for adding my task folder to my repo
+
+## git commit
+used this for committing changes in my task repo
+
+## git push origin main
 For pushing my work to the amFOSS tasks repository
 
 
