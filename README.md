@@ -18,4 +18,16 @@ In my journey with AMFOSS, I encountered a spectrum of tasks, some of which were
 
 | Tasks List | Task Name | Status |
 | ---------- | --------- | ------ |
-| [task-00]task-00/ | Introspection | Completed |
+| [task-00](task-00/) | Install Linux | Completed |
+| [task-01](task-01/) | Terminal Wizard | Completed |
+| [task-02](task-02/) | Lessgo Hugo | Completed |
+| [task-03](task-03/) | Hello,World! | Completed |
+| [task-04](task-04/) | Competitive Programming | Partially Completed |
+| [task-05](task-05/) | Hypertext Mockup Language | Completed |
+| [task-06](task-06/) | Cricket Vault | Completed |
+| [task-07](task-07/) | AK-47&deg;C | Completed |
+| [task-08](task-08/) | Poke-Search! | Completed |
+| [task-09](task-09/) | GeoQuest | Not Attempted |
+| [task-10](task-10/) | RuskOS | Not Attempted |
+| [task-11](task-11/) | TinkerCAD | Not Attempted |
+
