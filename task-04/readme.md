@@ -1,0 +1,2 @@
+# Competitive Programming
+So this was too hard for me cause my coding knowledge is literally zero.CS50 lectures helped me.I saw only week 0,1,2 of cs50 so I'm familiar with C language more than any other language as of now.So I chose the easiest questions in the hackerrank which allow me to complete using just C.I know it will be very easy using python but i dont know arrays and all of python.I will probably do all the other questions after completing cs50 course.I'm planning on buying the certificate,any suggestions?
