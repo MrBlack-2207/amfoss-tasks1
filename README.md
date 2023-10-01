@@ -30,4 +30,8 @@ In my journey with AMFOSS, I encountered a spectrum of tasks, some of which were
 | [task-09](task-09/) | GeoQuest | Not Attempted |
 | [task-10](task-10/) | RuskOS | Not Attempted |
 | [task-11](task-11/) | TinkerCAD | Not Attempted |
+| [task-12](task-12/) | Godot | Not Attempted |
+| [task-13](task-13/) | Vim | Completed |
+| [task-14](task-14/) | Bandit | Completed |
+| [task-15](task-15/) | Project Euler | Not Attempted |
 
